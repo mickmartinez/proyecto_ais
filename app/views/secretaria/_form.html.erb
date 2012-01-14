@@ -1,0 +1,21 @@
+<%= form_for(@secretarium) do |f| %>
+  <% if @secretarium.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@secretarium.errors.count, "error") %> prohibited this secretarium from being saved:</h2>
+
+      <ul>
+      <% @secretarium.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :belongs_to %><br />
+    <%= f.text_field :belongs_to %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

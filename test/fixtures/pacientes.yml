@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  numero_expediente: 1
+  fecha_nacimiento: 2012-01-14
+  lugar_nacimiento: MyString
+  nombre_padre: MyString
+  nombre_madre: MyString
+  seguro_social: 
+  provincia: MyString
+  distrito: MyString
+  corregimiento: MyString
+  nombre_urgencias: MyString
+  parentesco: MyString
+  telefonourgencias: 1
+
+two:
+  numero_expediente: 1
+  fecha_nacimiento: 2012-01-14
+  lugar_nacimiento: MyString
+  nombre_padre: MyString
+  nombre_madre: MyString
+  seguro_social: 
+  provincia: MyString
+  distrito: MyString
+  corregimiento: MyString
+  nombre_urgencias: MyString
+  parentesco: MyString
+  telefonourgencias: 1

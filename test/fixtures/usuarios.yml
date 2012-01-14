@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  servicio: MyString
+  tipo_profesional: MyString
+  codigo_profesional: MyString
+  nombre_usuario: MyString
+  contrasena: MyString
+
+two:
+  servicio: MyString
+  tipo_profesional: MyString
+  codigo_profesional: MyString
+  nombre_usuario: MyString
+  contrasena: MyString

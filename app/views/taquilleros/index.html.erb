@@ -1,0 +1,23 @@
+<h1>Listing taquilleros</h1>
+
+<table>
+  <tr>
+    <th>Belongs to</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @taquilleros.each do |taquillero| %>
+  <tr>
+    <td><%= taquillero.belongs_to %></td>
+    <td><%= link_to 'Show', taquillero %></td>
+    <td><%= link_to 'Edit', edit_taquillero_path(taquillero) %></td>
+    <td><%= link_to 'Destroy', taquillero, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Taquillero', new_taquillero_path %>

@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 1
+  id_paciente: 1
+  id_medico: MyString
+  tipo_paciente: 
+  frecuentacion_inst: 
+  frecuentacion_serv: 
+  tipo_atencion: 1
+  atencion_por: MyString
+  area_referencia: MyString
+  fecha: 2012-01-14
+  hora: 2012-01-14 13:29:35
+  informe_medico: MyString
+
+two:
+  id: 1
+  id_paciente: 1
+  id_medico: MyString
+  tipo_paciente: 
+  frecuentacion_inst: 
+  frecuentacion_serv: 
+  tipo_atencion: 1
+  atencion_por: MyString
+  area_referencia: MyString
+  fecha: 2012-01-14
+  hora: 2012-01-14 13:29:35
+  informe_medico: MyString

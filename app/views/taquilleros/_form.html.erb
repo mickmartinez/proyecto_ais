@@ -1,0 +1,21 @@
+<%= form_for(@taquillero) do |f| %>
+  <% if @taquillero.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@taquillero.errors.count, "error") %> prohibited this taquillero from being saved:</h2>
+
+      <ul>
+      <% @taquillero.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :belongs_to %><br />
+    <%= f.text_field :belongs_to %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

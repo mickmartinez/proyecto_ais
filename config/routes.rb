@@ -1,4 +1,26 @@
 Proyecto::Application.routes.draw do
+  resources :administradors
+
+  resources :secretaria
+
+  resources :medicos
+
+  resources :taquilleros
+
+  resources :especialidads
+
+  resources :servicios
+
+  resources :usuarios
+
+  resources :cita
+
+  resources :historia_medicas
+
+  resources :pacientes
+
+  resources :personas
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

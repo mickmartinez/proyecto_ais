@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Servicio:</b>
+  <%= @usuario.servicio %>
+</p>
+
+<p>
+  <b>Tipo profesional:</b>
+  <%= @usuario.tipo_profesional %>
+</p>
+
+<p>
+  <b>Codigo profesional:</b>
+  <%= @usuario.codigo_profesional %>
+</p>
+
+<p>
+  <b>Nombre usuario:</b>
+  <%= @usuario.nombre_usuario %>
+</p>
+
+<p>
+  <b>Contrasena:</b>
+  <%= @usuario.contrasena %>
+</p>
+
+
+<%= link_to 'Edit', edit_usuario_path(@usuario) %> |
+<%= link_to 'Back', usuarios_path %>
