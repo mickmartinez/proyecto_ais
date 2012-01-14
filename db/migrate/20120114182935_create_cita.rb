@@ -2,8 +2,8 @@ class CreateCita < ActiveRecord::Migration
   def change
     create_table :cita do |t|
       t.integer :id
-      t.integer :id_paciente
-      t.string :id_medico
+      t.references :paciente
+      t.references :medico
       t.int :tipo_paciente
       t.int :frecuentacion_inst
       t.int :frecuentacion_serv

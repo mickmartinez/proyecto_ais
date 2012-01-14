@@ -3,6 +3,7 @@ class CreateEspecialidads < ActiveRecord::Migration
     create_table :especialidads do |t|
       t.integer :codigo
       t.string :nombre
+      t.references :servicio 
 
       t.timestamps
     end

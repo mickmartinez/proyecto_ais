@@ -1,7 +1,7 @@
 class CreateMedicos < ActiveRecord::Migration
   def change
     create_table :medicos do |t|
-      t.Usuario :belongs_to
+      t.references :usuario
 
       t.timestamps
     end

@@ -1,7 +1,7 @@
 class CreatePacientes < ActiveRecord::Migration
   def change
     create_table :pacientes do |t|
-      t.integer :numero_expediente
+      t.references :historia_medica
       t.date :fecha_nacimiento
       t.string :lugar_nacimiento
       t.string :nombre_padre
@@ -13,7 +13,7 @@ class CreatePacientes < ActiveRecord::Migration
       t.string :nombre_urgencias
       t.string :parentesco
       t.integer :telefonourgencias
-
+      t.references :persona
       t.timestamps
     end
   end

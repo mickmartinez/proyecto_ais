@@ -6,6 +6,8 @@ class CreateUsuarios < ActiveRecord::Migration
       t.string :codigo_profesional
       t.string :nombre_usuario
       t.string :contrasena
+      t.references :persona
+      t.references :servicio
 
       t.timestamps
     end
